@@ -3,7 +3,7 @@
 }
 
 body{
-	font-size: 16px;
+	font-size: 1em;
 	background-color: #7D1935;
 	font-family: 'Oxygen', sans-serif;
 	color: #000;
@@ -25,7 +25,7 @@ body{
 
 /*==================My Site's Name==================*/
 .navbar-brand{
-	padding-top: 35px;
+	padding-top: 55px;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus{
@@ -33,19 +33,46 @@ body{
 }
 
 .navbar-brand h1{
-	font-size: 2.5em;
+	font-size: 2.8em;
 	font-family: 'Bungee Inline', cursive;
 	color: #7D1935;
 	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
+/*==================Tag Line==================*/
 .navbar-brand p{
 	font-family: 'Poiret One', cursive;
 	margin-top: -5px;
-	font-size: .7em;
+	font-size: .65em;
 	color: #7D1935;
 	font-weight: bolder;
 	letter-spacing: 2px;
 	word-spacing: 2px;
+	text-transform: uppercase;
 }
 
+.navbar-brand p span{
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================Media Tags==================*/
+/*==================Media Tag For 1200 to 1300==================*/
+@media (min-width: 1200px) and (max-width: 1300px){
+	#logo-img{
+	margin: 10px 0px 10px -50px;
+	}
+}
