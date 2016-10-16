@@ -15,6 +15,7 @@ body{
 	border: none;
 }
 
+/*==================Ya Hussain Logo==================*/
 #logo-img{
 	background: url('../images/logo.png') no-repeat;
 	width: 150px;
@@ -22,8 +23,13 @@ body{
 	margin: 10px 0px 10px -100px;
 }
 
+/*==================My Site's Name==================*/
 .navbar-brand{
 	padding-top: 35px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
 }
 
 .navbar-brand h1{
@@ -35,10 +41,11 @@ body{
 
 .navbar-brand p{
 	font-family: 'Poiret One', cursive;
-	margin-top: -10px;
+	margin-top: -5px;
 	font-size: .7em;
 	color: #7D1935;
 	font-weight: bolder;
 	letter-spacing: 2px;
 	word-spacing: 2px;
 }
+
