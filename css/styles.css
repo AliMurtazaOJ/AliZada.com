@@ -9,6 +9,7 @@ body{
 	color: #000;
 }
 
+/*==================Body's Header==================*/
 #header-nav{
 	background-color: #FFF056;
 	border-radius: 0;
@@ -18,14 +19,14 @@ body{
 /*==================Ya Hussain Logo==================*/
 #logo-img{
 	background: url('../images/logo.png') no-repeat;
-	width: 150px;
-	height: 150px;
-	margin: 10px 0px 10px -100px;
+	width: 100px;
+	height: 100px;
+	margin: 5px 0px 5px -50px;
 }
 
 /*==================My Site's Name==================*/
 .navbar-brand{
-	padding-top: 55px;
+	padding-top: 25px;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus{
@@ -33,7 +34,7 @@ body{
 }
 
 .navbar-brand h1{
-	font-size: 2.8em;
+	font-size: 2.5em;
 	font-family: 'Bungee Inline', cursive;
 	color: #7D1935;
 	text-transform: uppercase;
@@ -43,9 +44,9 @@ body{
 
 /*==================Tag Line==================*/
 .navbar-brand p{
-	font-family: 'Poiret One', cursive;
+	font-family: 'Oxygen', sans-serif;
 	margin-top: -5px;
-	font-size: .65em;
+	font-size: .55em;
 	color: #7D1935;
 	font-weight: bolder;
 	letter-spacing: 2px;
@@ -57,6 +58,11 @@ body{
 	vertical-align: middle;
 }
 
+/*==================Nabar Search Line==================*/
+.navbar-form{
+	margin-right: -100px;
+	padding-top: 25px;
+}
 
 
 
