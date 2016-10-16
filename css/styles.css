@@ -1,0 +1,11 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	background-color: #F6F6F6;
+	font-family: 'Oxygen', sans-serif;
+	color: #000;
+}
+
