@@ -58,10 +58,52 @@ body{
 	vertical-align: middle;
 }
 
-/*==================Nabar Search Line==================*/
-.navbar-form{
-	margin-right: -100px;
+.navbar-nav{
 	padding-top: 25px;
+}
+
+.navbar-default .navbar-nav > .active a{
+    color: #FFF056;
+    background-color: #7D1935;
+}
+
+.navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a{
+    padding-bottom: 50px;
+}
+
+.navbar-default .navbar-nav > .active a:hover, .navbar-default .navbar-nav > .active a:focus{
+    background-color: #7D1935;
+    color: #fff;
+}
+
+.navbar-nav .dropdown-menu li a{
+	font-size: 1em;
+	line-height: 1.2;
+}
+
+.navbar-nav > li a{
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+.navbar-nav > li > a:link, .navbar-nav > li > a:visited{
+	transition: 0.5s ease-in-out;
+	color: #7D1935;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    background-color: #7D1935;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.navbar-nav > li:hover, .navbar-nav > li:focus{
+	background-color: #7D1935;
+}
+
+.navbar-nav > li:visited{
+	background-color: #7D1935;
 }
 
 
@@ -73,6 +115,20 @@ body{
 
 
 
+
+
+
+
+
+/*==================Bootstraps's Fonts==================*/
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.svg');
+  src: url('fonts/glyphicons-halflings-regular.ttf');
+  src: url('fonts/glyphicons-halflings-regular.woff');
+  src: url('fonts/glyphicons-halflings-regular.woff2');
+}
 
 
 /*==================Media Tags==================*/
