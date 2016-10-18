@@ -116,9 +116,19 @@ body{
 }
 
 
+/*==================Carousel==================*/
+#carousel-caption h1{
+	text-shadow: 2px 2px 3px #000;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 3vw;
+	margin-top: -450px;
+}
 
-
-
+.item img{
+	margin-right: auto;
+	margin-left: auto;
+}
 
 
 
@@ -173,7 +183,9 @@ body{
 
 /*==================Small Devices Only==================*/
 @media (min-width: 768px) and (max-width: 991px){
-
+#carousel-caption h1{
+	font-size: 3vw;
+}
 }
 
 
@@ -183,5 +195,9 @@ body{
 @media (max-width: 767px){
 #nav-list, #nav-list .dropdown-menu{
 	text-align: center;
+}
+
+#carousel-caption h1{
+	font-size: 4vw;
 }
 }
